@@ -1,0 +1,140 @@
+body {
+  background-color: #393e46;
+}
+
+/* ----- Heading ----- */
+.heading {
+  color: #80ffdb;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 5.5rem;
+  margin: 2% 0 3%;
+  text-align: center;
+}
+
+/* ----- Button ----- */
+.btn-div {
+  text-align: center;
+}
+
+.play-btn {
+  background-color: #d3d3d3;
+  color: #000;
+  font-size: 3rem;
+  font-weight: 400;
+  padding: 1% 5%;
+  margin: 0;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 9px #999;
+}
+
+.play-btn:hover {
+  background-color: #80ffdb;
+  color: #393e46;
+}
+
+.play-btn:active {
+  background-color: #80ffdb;
+  color: #393e46;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.play-btn:focus {
+  border: none;
+  outline: none;
+}
+
+/* ----- Result Images ----- */
+p {
+  color: #80ffdb;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 2rem;
+}
+
+.results {
+  text-align: center;
+  margin: 2% 0;
+}
+
+.player1 {
+  position: absolute;
+  text-align: center;
+  left: 25%;
+}
+
+.player2 {
+  float: left;
+  position: absolute;
+  text-align: center;
+  right: 25%;
+}
+
+
+/* ----- Footer ----- */
+.footer-p {
+  color: #80ffdb;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 1rem;
+}
+
+.footer-div {
+  position: absolute;
+  bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+
+
+@media (max-width: 1028px) {
+
+  .heading {
+    font-size: 6.5rem;
+    margin: 20% 10% 15%;
+  }
+
+  .play-btn {
+    font-size: 6rem;
+  }
+
+  p {
+    font-size: 3rem;
+  }
+
+  .player1 {
+    left: 10%;
+    width: 350px;
+  }
+
+  .player2 {
+    right: 10%;
+    width: 350px;
+  }
+
+  .results {
+    margin: 15% 0;
+  }
+
+  #img1 {
+    width: 350px;
+    height: auto;
+  }
+
+  #img2 {
+    width: 350px;
+    height: auto;
+  }
+
+  .footer-div{
+    bottom: 3%
+  }
+
+  .footer-p {
+    font-size: 1.5rem;
+  }
+
+}

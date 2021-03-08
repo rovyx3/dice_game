@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Dice Game</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+
+    <section id="heading">
+      <h1 class="heading">Welcome to The Dice Game!</h1>
+    </section>
+
+
+    <section id="play_btn">
+      <div class="btn-div">
+        <button type="button" class="play-btn" onclick="playGame()">PLAY</button>
+      </div>
+    </section>
+
+
+    <section id="results">
+      <div class="results">
+        <div class="player1">
+          <p>Player 1</p>
+          <img id="img1" src="images/dice6.png" alt="player-1-result">
+        </div>
+        <div class="player2">
+          <p>Player 2</p>
+          <img id="img2" src="images/dice6.png" alt="player-2-result">
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="footer-div">
+        <p class="footer-p">Created by Igor '4NC' Forenc</p>
+      </div>
+    </section>
+
+    <script src="index.js" charset="utf-8"></script>
+
+  </body>
+</html>
